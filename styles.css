@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+input, select, button {
+    margin: 0.2rem 0 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.gallery {
+    margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  border: 1px solid #777;
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+    
+}
+
+.venue {
+    flex: 1 1 calc(33% - 1rem);
+    box-sizing: border-box;
+    padding: 1rem;
+    background: hsl(0, 0%, 96%);
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.home-page {
+    background-image: url("C:/Users/DELL/OneDrive/Pictures/project pics/VVIT Home page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    color: #f4eded; /* Optional: Adjust text color for better visibility */
+}
+
+.home-page header,
+.home-page nav a {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for header and nav */
+    padding: 0.5rem;
+}
+.about-page {
+    background-image: url("C:/Users/DELL/OneDrive/Documents/Group Project/project pics/VVIT.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure it covers the full height of the viewport */
+    color: #f20808; /* Optional: Adjust text color for better visibility */
+}
+
+.about-page header,
+.about-page nav a {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for header and nav */
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

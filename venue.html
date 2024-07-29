@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Venue - Venue Management System</title>
+    <link rel="stylesheet" href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/styles.css">
+</head>
+<body class="home-page">
+    <header>
+        <h1>Venue Management System</h1>
+        <nav>
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/home.html">Home</a>
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/register.html">Register</a>
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/login.html">Login</a>
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/venue.html">Book Venue</a>
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/gallery.html">Gallery</a>
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/about.html">About Us</a>
+          <!--    
+            <a href="status.html">Show Status</a>
+            <a href="admin.html">Manage Requests</a> -->
+            <a href="C:/Users/DELL/OneDrive/Documents/Group Project/Project codes/logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section id="book-venue">
+            <h2>Book a Venue</h2>
+            <form id="venue-form">
+                <label for="venue">Venue:</label>
+                <select id="venue">
+                    <option value="New Block Seminar Hall">New Block Seminar Hall</option>
+                    <option value="Central Block Seminar Hall">Central Block Seminar Hall</option>
+                    <option value="IT Seminar Hall">IT Seminar Hall</option>
+                    <option value="VIVA Dining Hall">VIVA Dining Hall</option>
+                    <option value="OAT">OAT</option>
+                    <option value="Sports Ground">Sports Ground</option>
+                </select>
+                <label for="purpose">Purpose:</label>
+                <select id="purpose">
+                    <option value="Tech speech">Tech speech</option>
+                    <option value="Prize distribution">Prize distribution</option>
+                    <option value="Movie Promotion">Movie Promotion</option>
+                    <option value="College-FEST">College-FEST</option>
+                    <option value="Festival-Function Celebrations">Festival-Function Celebrations</option>
+                    <option value="Alumni Meet">Alumni Meet</option>
+                    <option value="Freshers Day">Freshers Day</option>
+                    <option value="Fare Well Party">Fare Well Party</option>
+                    <option value="Balostav">Balostav</option>
+                    <option value="Other">Other</option>
+                </select>
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+                <label for="time">Time:</label>
+                <input type="time" id="time">
+                <label for="chief-guests">Chief Guest:</label>
+                <input type="text" id="chief-guests">
+                <button type="submit">Request Venue</button>
+            </form>
+        </section>
+    </main>
+    <script src="js/venue.js"></script>
+</body>
+</html>
